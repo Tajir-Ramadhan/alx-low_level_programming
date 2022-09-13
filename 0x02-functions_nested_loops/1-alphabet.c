@@ -6,9 +6,9 @@
  *Fungtion must reun value
  *Return (0)
  */
-void print_alphabet(void);
+int main(void);
 {
-char char;
+char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 _putchar(ch);
