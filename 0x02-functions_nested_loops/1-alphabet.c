@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 /**
  * Fnction declaration
  * main function starts
@@ -12,7 +11,7 @@ void print_alphabet(void);
 char char;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-putchar(ch);
+_putchar(ch);
 }
 putchar('\n');
 return (0);
