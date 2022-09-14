@@ -1,18 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * Fnction declaration
- * main function starts
- *The function must print characters in upper case followed by low case
- *Fungtion must reun value
- *Return (0)
+ * print_alphabet - Prints a-z in lowercase
+ * Return: returns nothing/void
  */
-int main(void)
+void print_alphabet(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
-{
-_putchar(ch);
-}
-putchar('\n');
-return (0);
+	char alphabet = 'a';
+
+	while (alphabet <= 'z')
+	{
+		_putchar(alphabet);
+		alphabet++;
+	}
+
+	_putchar('\n');
 }
